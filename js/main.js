@@ -20,3 +20,30 @@ function encender() {
     pantalla.style.display = "none"; 
   }
   
+  
+  function inicio(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage =  "url('./imagenes/INICIO.webp')";
+  }
+  function tve(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/tve.jpeg')"
+  }
+  function dos(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/2.jpg')"
+  }
+  function tres(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/3.jpg')"
+    
+  }
+  function cuatro(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/4.jpeg')"
+  }
+
+  function cinco(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/5.jpg')"
+  }
