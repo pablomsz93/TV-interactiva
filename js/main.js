@@ -8,3 +8,15 @@ function actualizarHora(){
 actualizarHora();
 
 setInterval(actualizarHora,1000);
+
+
+function encender() {
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.display = "block"; 
+  }
+  
+  function apagar() {
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.display = "none"; 
+  }
+  
