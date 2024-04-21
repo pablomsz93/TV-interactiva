@@ -30,14 +30,15 @@
           <button class="boton-cuatro" onclick="cuatro()">4</button>
           <button class="boton-cinco" onclick="cinco()">5</button>
       </div>
-        <div class="botones">
-          <button class="boton-volmas">+Vol</button>
-          <button class="boton-volmin">-Vol</button>
-        </div>
-        <div class="botones">
-          <button class="boton-netflix">NETFLIX</button>
-          <button class="boton-prime">AMAZON</button>
-        </div>
+      <div class="botones">
+        <button class="boton-volmas" onmousedown="subirVolumenEmpieza()" onmouseup="subirVolumenPara()" ontouchstart="subirVolumenEmpieza()" ontouchend="subirVolumenPara()">+Vol</button>
+        <button class="boton-volmin" onmousedown="bajarVolumenEmpieza()" onmouseup="bajarVolumenPara()" ontouchstart="bajarVolumenEmpieza()" ontouchend="bajarVolumenPara()">-Vol</button>
+    </div>
+    <div class="botones">
+        <button class="boton-netflix" onclick="netflix()">NETFLIX</button>
+        <button class="boton-prime" onclick="amazon()">AMAZON</button>
+    </div>
+      
       </div>
     </div>
     <script src="./js/main.js"></script>

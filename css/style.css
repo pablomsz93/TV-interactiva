@@ -134,3 +134,13 @@ body {
     font-size: 2vw;
     font-family: fantasy;
   }
+  .volume-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    background-color: black;
+    color: yellow;
+    font-size: 1em;
+  }

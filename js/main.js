@@ -47,3 +47,37 @@ function encender() {
     let pantalla = document.querySelector(".pantalla");
     pantalla.style.backgroundImage = "url('./imagenes/5.jpg')"
   }
+  function netflix(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/netflix.jpg')"
+  }
+  function amazon(){
+    let pantalla = document.querySelector(".pantalla");
+    pantalla.style.backgroundImage = "url('./imagenes/prime.webp')"
+  }
+  function subirVolumenEmpieza() {
+    let pantalla = document.getElementById("fechaHora");
+    let volumenMensaje = document.createElement("div");
+    volumenMensaje.classList.add("volumenMensaje");
+    volumenMensaje.textContent = "Subiendo volumen...";
+    pantalla.appendChild(volumenMensaje);
+  }
+  
+  function subirVolumenPara() {
+    let volumenMensaje = document.querySelector(".volumenMensaje");
+    if (volumenMensaje) volumenMensaje.remove();
+  }
+  
+  function bajarVolumenEmpieza() {
+    let pantalla = document.getElementById("fechaHora");
+    let volumenMensaje = document.createElement("div");
+    volumenMensaje.classList.add("volumenMensaje");
+    volumenMensaje.textContent = "Bajando volumen...";
+    pantalla.appendChild(volumenMensaje);
+  }
+  
+  function bajarVolumenPara() {
+    let volumenMensaje = document.querySelector(".volumenMensaje");
+    if (volumenMensaje) volumenMensaje.remove();
+  }
+  
