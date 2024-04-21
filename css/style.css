@@ -79,4 +79,50 @@ body {
     border-radius: 50%;
     margin: 0.5em;
   }
+  .boton-verde {
+    background-color: green;
+  }
   
+  .boton-rojo {
+    background-color: red;
+  }
+  
+  .boton-netflix {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    width: auto;
+    padding: 0.3em 0.1em;
+    text-align: center;
+    border-radius: 0.3em;
+  }
+  
+  .boton-prime {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    width: auto;
+    padding: 0.1em 0.1em;
+    text-align: center;
+    border-radius: 0.4em;
+  }
+  
+  .boton-inicio {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+   
+    
+    width: auto;
+    padding: 0.5em 0.4em;
+    text-align: center;
+    border-radius: 0.5em;
+  }
+  
+  .boton-volmas {
+    background-color: yellow;
+  }
+  
+  .boton-volmin {
+    background-color: yellow;
+  }
