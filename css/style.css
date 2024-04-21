@@ -126,3 +126,11 @@ body {
   .boton-volmin {
     background-color: yellow;
   }
+  #fechaHora {
+    position: absolute;
+    top: 2%; 
+    right: 6%; 
+    color: red;
+    font-size: 2vw;
+    font-family: fantasy;
+  }
