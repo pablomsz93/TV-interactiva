@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>SMART TV</title>
+    <title>TV INTERACTIVA</title>
   </head>
   <body>
     <div class="contenedor">
@@ -21,24 +21,39 @@
         <div class="botones">
           <button class="boton-inicio" onclick="inicio()">INICIO</button>
           <button class="boton-uno" onclick="tve()">1</button>
-      </div>
-      <div class="botones">
+        </div>
+        <div class="botones">
           <button class="boton-dos" onclick="dos()">2</button>
           <button class="boton-tres" onclick="tres()">3</button>
-      </div>
-      <div class="botones">
+        </div>
+        <div class="botones">
           <button class="boton-cuatro" onclick="cuatro()">4</button>
           <button class="boton-cinco" onclick="cinco()">5</button>
-      </div>
-      <div class="botones">
-        <button class="boton-volmas" onmousedown="subirVolumenEmpieza()" onmouseup="subirVolumenPara()" ontouchstart="subirVolumenEmpieza()" ontouchend="subirVolumenPara()">+Vol</button>
-        <button class="boton-volmin" onmousedown="bajarVolumenEmpieza()" onmouseup="bajarVolumenPara()" ontouchstart="bajarVolumenEmpieza()" ontouchend="bajarVolumenPara()">-Vol</button>
-    </div>
-    <div class="botones">
-        <button class="boton-netflix" onclick="netflix()">NETFLIX</button>
-        <button class="boton-prime" onclick="amazon()">AMAZON</button>
-    </div>
-      
+        </div>
+        <div class="botones">
+          <button
+            class="boton-volmas"
+            onmousedown="subirVolumenEmpieza()"
+            onmouseup="subirVolumenPara()"
+            ontouchstart="subirVolumenEmpieza()"
+            ontouchend="subirVolumenPara()"
+          >
+            +Vol
+          </button>
+          <button
+            class="boton-volmin"
+            onmousedown="bajarVolumenEmpieza()"
+            onmouseup="bajarVolumenPara()"
+            ontouchstart="bajarVolumenEmpieza()"
+            ontouchend="bajarVolumenPara()"
+          >
+            -Vol
+          </button>
+        </div>
+        <div class="botones">
+          <button class="boton-netflix" onclick="netflix()">NETFLIX</button>
+          <button class="boton-prime" onclick="amazon()">AMAZON</button>
+        </div>
       </div>
     </div>
     <script src="./js/main.js"></script>
